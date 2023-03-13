@@ -9,7 +9,7 @@ def main():
         number_list.append(num)
     print(number_list)
 
-    even_num = filter(lambda x: x % 2 == 0, number_list)
+    even_num = filter(lambda x: x % 2 != 0, number_list)
     print(list(even_num))
 
 
